@@ -1,0 +1,109 @@
+/* Título do website */
+
+.title {
+    margin-top:10px;
+    font-size: 25px;
+    float: left;
+}
+
+.body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* Barra de navegação */
+
+.navbar {
+font-family: 'Ubuntu', sans-serif;
+margin-bottom: 0;
+background-color: rgb(0, 168, 89);
+border: 0;
+font-size: 13px;
+letter-spacing: 4px;
+opacity: 0.9;
+}
+
+.menulink {
+    color:rgb(225,221,33)!important;
+}
+.menulink:hover {
+    color:rgb(25,84,147)!important;
+}
+
+/* Imagem de capa do site */
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.legenda {
+    color: #fff;
+    margin-top: -300px;
+    margin-left: 20px;
+}
+
+/* Blocos do website */
+
+.container {
+    padding: 80px 50px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+/* Fotos com círculos */
+
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 200px;
+}
+
+.person:hover {
+    border-color: #f1f1f1;
+}
+
+/* Imagens da linha do tempo */
+
+.post {
+    display: inline-block;
+}
+
+.containerlinha {
+    width:100%;
+    clear:both;
+}
+
+#postimage {
+    width: 150px;
+    height: 150 px;
+}
+
+/* Iframe - íntegra da Constituição */
+
+iframe {
+    width: 100%;
+    height: 500px;
+}
+
+
+/* Rodapé */
+
+footer {
+    background-color: rgb(25,84,147);
+    color: white;
+    height: 30px;
+}
+
+footer p {
+    display: inline;
+}
+
+
+.up-arrow {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    z-index: 1;
+}
